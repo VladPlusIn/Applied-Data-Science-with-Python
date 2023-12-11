@@ -1,1 +1,13 @@
+Predicting Blight Ticket Compliance in Detroit
+This project is part of a data challenge from the Michigan Data Science Team (MDST) and the Michigan Student Symposium for Interdisciplinary Statistical Sciences (MSSISS), partnered with the City of Detroit to address blight violations.
+
+Objective
+The primary goal of this project is to predict whether a given blight ticket in Detroit will be paid on time using machine learning techniques. The provided dataset contains information about blight tickets issued between 2004 and 2016, including details about the violator, violation type, location, and compliance status.
+
+Dataset
+The dataset used in this project includes the following files:
+
+train.csv: Training set containing blight ticket information issued between 2004 and 2011.
+test.csv: Test set containing blight ticket information issued between 2012 and 2016.
+addresses.csv and latlons.csv: Files mapping ticket IDs to addresses and addresses to latitude/longitude coordinates.
 
