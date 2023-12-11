@@ -1,1 +1,12 @@
+Sports Teams Analysis
+This project involves analyzing the relationship between the win/loss ratios of sports teams in four major leagues (NFL, MLB, NBA, and NHL) and the populations of their respective metropolitan areas.
+The data is sourced from Wikipedia and individual sports CSV files for the year 2018.
+
+Project Structure
+assets/
+wikipedia_data.html: HTML file containing metropolitan regions and associated sports teams.
+nfl.csv, mlb.csv, nba.csv, nhl.csv: CSV files containing sports data for the respective leagues.
+sports_analysis.ipynb: Jupyter Notebook containing the analysis code.
+README.md: This file providing an overview of the project.
+
 
