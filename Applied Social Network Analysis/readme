@@ -1,1 +1,18 @@
+Blight Ticket Compliance Prediction
+Overview
+This project aims to predict the compliance of blight tickets in Detroit. The data challenge from the Michigan Data Science Team (MDST) involves analyzing different aspects related to blight violations, predicting salaries based on email networks, and forecasting future connections between employees.
+
+Frameworks Used
+NetworkX: Used for creating, manipulating, and analyzing complex networks and graphs.
+Pandas: Utilized for data manipulation and analysis. 
+NumPy: Used for numerical computations, especially in arrays and matrices.
+Scikit-learn (sklearn): Employed for machine learning tasks including classification, regression, and model evaluation.
+
+Tasks Performed
+Random Graph Identification (Part 1): Analyzed randomly generated graphs and determined the algorithm used to create each graph. Implemented algorithms include Preferential Attachment (PA), Small World with low probability of rewiring (SW_L), and Small World with high probability of rewiring (SW_H).
+
+Company Emails Analysis (Part 2A): Salary Prediction - Utilized the email network data to predict whether individuals without ManagementSalary data are receiving a management position salary. Extracted various network features, trained a classifier, and predicted the probability of salary based on node attributes and network metrics.
+
+Company Emails Analysis (Part 2B): New Connections Prediction - Forecasted future connections between employees in the email network. Created a matrix of features for edges, trained a classifier on edges with known future connections, and predicted the probability of new connections for edges with missing future connection data.
+
 
