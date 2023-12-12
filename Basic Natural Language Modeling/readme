@@ -1,1 +1,20 @@
+Document Similarity & Topic Modelling
+Overview
+This repository contains code for two main tasks: Document Similarity and Topic Modelling. 
+
+Frameworks Used
+NLTK (Natural Language Toolkit) for tokenization, part-of-speech tagging, and WordNet integration.
+
+Gensim for Latent Dirichlet Allocation (LDA) topic modeling in this assignment.
+
+scikit-learn for calculating the accuracy score in the label_accuracy function.
+
+Tasks and Functions
+Document Similarity
+doc_to_synsets: Tokenizes and tags words in documents, finds corresponding synsets using WordNet.
+similarity_score: Computes normalized similarity score between lists of synsets.
+document_path_similarity: Calculates the symmetrical path similarity between documents.
+Topic Modelling
+LDA Modelling: Utilizes Gensim's LDA model to extract topics from newsgroup_data.
+Topic Distribution: Predicts topic distribution for a new document using the trained LDA model.
 
